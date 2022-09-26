@@ -1,0 +1,36 @@
+body {
+    background-color: #DBDFFD;
+}
+.header {
+    text-align: center;
+}
+h1, a, #search {
+    font-family: 'Aboreto', cursive;
+    text-decoration: none;
+    color: #231955;
+    outline: 0;
+}
+.input {
+    display: flex;
+    padding: 20px;
+}
+#search {
+    flex: 1;
+    padding: 7px;
+}
+input[type=text]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img {
+    height: 250px;
+}
+.movies {
+    padding: 20px;
+    width: 200px;
+    overflow: hidden;
+}
